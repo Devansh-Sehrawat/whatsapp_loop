@@ -8,4 +8,4 @@ function whatsAppText(t) {
 	$("button.compose-btn-send").click();
 }
 for(i=0;i<5;i++) 
-    whatsAppText("hootia");
+    setTimeout(whatsAppText("hootia"), 2000);
